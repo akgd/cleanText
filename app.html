@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vue test</title>
+    <link rel="stylesheet" href="css/bulma.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<div class="container">
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="column is-three-quarters">
+                <div id="app">
+                    <h1 class="title">
+        Text cleanup
+      </h1>
+                    <form>
+                        <div class="field">
+                            <label class="label">Input</label>
+                            <div class="control">
+                                <textarea id="input" class="textarea is-primary"></textarea>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input id="trim" type="checkbox"> trim whitespace from both ends
+                                </label>
+                            </div>
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input id="linebreaks" type="checkbox"> remove line breaks
+                                </label>
+                            </div>
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input id="double" type="checkbox"> remove double spaces
+                                </label>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <input type="button" class="button is-primary" onclick="ioText();" value="run"></input>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Output</label>
+                            <div class="control">
+                                <textarea id="output" class="textarea"></textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="content has-text-centered">
+            <p>A quick text cleanup tool to make copying content from a PDF less painful. Uses Bulma CSS framework.</p>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.js"></script>
+    </script>
+</body>
+
+</html>
