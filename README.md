@@ -1,7 +1,7 @@
-# cleanText
+# Clean Text
 
 This tool can...
-* Remove white space from from the string (trim, remove double spaces)
+* Remove white space from the string (trim, remove double spaces)
 * Encode strings
 * Decode strings
 * Swap single quotes with double or vice versa
