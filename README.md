@@ -1,6 +1,10 @@
 # cleanText
 
-A tool to make cleaning up line breaks and whitespace. [View here.](https://akgd.github.io/cleanText/)
+This tool can...
+* Remove white space from from the string (trim, remove double spaces)
+* Encode strings
+* Decode strings
+* Swap single quotes with double or vice versa
 
 ## Built With
 
