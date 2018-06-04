@@ -1,6 +1,6 @@
 # Clean Text
 
-[Check it out here.](https://akgd.io/cleanText)
+[Check it out here.](https://akgd.github.io/cleanText/)
 
 This tool can...
 * Remove white space from the string (trim, remove double spaces)
