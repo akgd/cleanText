@@ -1,4 +1,4 @@
-# Clean Text
+# Text Cleaner
 
 ### [DEMO](https://akgd.github.io/text-cleaner/)
 
