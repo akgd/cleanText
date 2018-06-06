@@ -1,8 +1,8 @@
 # Clean Text
 
-[Check it out here.](https://akgd.github.io/cleanText/)
+### [DEMO](https://akgd.github.io/text-cleaner/)
 
-This tool can...
+This tool can:
 * Remove white space from the string (trim, remove double spaces)
 * Encode strings
 * Decode strings
